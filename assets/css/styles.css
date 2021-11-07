@@ -1,3 +1,44 @@
 body {
-    background-color: blue;
+  background-color: rgb(11, 181, 155);
+}
+
+header {
+  padding: 30px;
+  background-color: rgb(113, 6, 88);
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+  margin: 0;
+  display: inline;
+}
+
+header a {
+  text-decoration: none;
+  color: #fce138;
+}
+
+header nav {
+  float: right;
+  margin: 12px 0;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 28px;
+}
+
+.hero {
+  background-image: url("../images/geometric_pattern_symmetric_illusion_polygons_sketch_6846949.jpeg");
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
