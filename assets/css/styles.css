@@ -1,3 +1,4 @@
+/* header CSS */
 body {
   background-color: rgb(177, 177, 177);
 }
@@ -9,18 +10,21 @@ header {
   align-items: center;
   padding: 30px;
   background-color: rgb(50, 0, 38);
+  border-style: dashed;
+  border-width: 3px;
+  border-color: rgb(196, 161, 21);
 }
 
 header h1 {
   font-weight: bold;
   font-size: 50px;
-  color: #fce138;
+  color: rgb(215, 208, 5);
   margin: 0 auto;
 }
 
 header a {
   text-decoration: none;
-  color: #fce138;
+  color: rgb(215, 208, 5);
 }
 
 header nav {
@@ -41,12 +45,10 @@ header nav ul li a {
 
 .hero {
   background-image: url("../images/geometric_pattern_symmetric_illusion_polygons_sketch_6846949.jpeg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
+  height: 520px;
+  background-repeat: repeat;
 }
-
+/* the CSS on about me and projects*/
 .section-title {
   font-size: 55px;
   color: rgb(50, 0, 38);
@@ -57,7 +59,7 @@ header nav ul li a {
 }
 
 .primary-border {
-  border-color: #fce138;
+  border-color: rgb(215, 208, 5);
 }
 
 .secondary-border {
@@ -73,8 +75,9 @@ header nav ul li a {
   margin: 0 auto 30px auto;
   background: rgb(50, 0, 38);
   display: flex;
-  color: #fce138;
+  color: rgb(215, 208, 5);
   overflow: auto;
+  border-radius: 12%;
 }
 
 .webpage {
@@ -82,8 +85,9 @@ header nav ul li a {
   margin: 0 auto 30px auto;
   background: rgb(50, 0, 38);
   display: flex;
-  color: #fce138;
+  color: rgb(215, 208, 5);
   overflow: auto;
+  border-radius: 12%;
 }
 
 .webpage a img {
@@ -124,4 +128,27 @@ header nav ul li a {
 
 .text-right {
   text-align: right;
+}
+/* footer begin*/
+footer {
+  background-color: rgb(50, 0, 38);
+  display: center;
+  border-style: dotted;
+  border-width: 5px;
+  border-color: rgb(196, 161, 21);
+  border-radius: 10px;
+}
+
+.bottom-part h1 {
+  display: center;
+  color: rgb(215, 208, 5);
+  font-size: 35px;
+  margin: 50px 550px;
+}
+
+.bottom-part h3 {
+  display: center;
+  color: rgb(215, 208, 5);
+  font-size: 25px;
+  margin: 50px 550px;
 }
