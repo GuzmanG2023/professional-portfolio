@@ -7,3 +7,5 @@
 ## my assignment is to do a portfolio using CSS and HTML. showing my recent skills doing section on About me, My Projects and how to contact me. dont work right now but i will show my recent achievements. click on the images on this web page that its effortless to navigate thru it will take you to my GitHub and my projects. Enjoy what u see.
 
 [title](https://guzmang2023.github.io/professional-portfolio/) <~~ Click Here to see the website
+
+images where used from website site called all-free-download.com, amazon.com and teacherspayteachers.com
